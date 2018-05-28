@@ -1,9 +1,4 @@
-# Exercice Frontend
-
-## Les niveaux
-
- * Niveau 1 - Temps estimé: 1 jour - A faire: réaliser la validation de numéro de carte de crédit et la galerie
- * Niveau 2 - Temps estimé: 2 jour - A faire: réaliser le niveau 1 + le hero et le header
+# Exercice Frontend (Temps estimé 4h)
 
 ## Design
 
@@ -24,15 +19,14 @@ L'utilisation d'un framework JS tel que VueJS ou React est autorisée mais pas o
 
  * La mise en place d'une configuration gulp ou webpack.
  * L'intégration responsive, adaptative, précise et rigoureuse (HTML5, CSS3) des designs fournis.
- * Le développement javascript pour l'ouverture et la fermeture du menu ainsi que la validation d'un numéro de carte de crédit (voir explication ci après).
+ * Le développement javascript pour la validation d'un numéro de carte de crédit (voir explication ci après).
 
 ### La validation de la carte de crédit
 
 La validation se fera exclusivement au "keyup" et devra fournir les informations suivantes :
 
  * Le type de la carte de crédit (Visa, Mastercard, Amex)
- * Si le type de la carte n'est pas connu, le fond
- * Le fond noir derrière le type de la carte deviendra vert (success), rouge (error) ou orange (si le type de la carte n'est pas connu).
+ * Le fond blanc derrière le type de la carte deviendra vert (success), rouge (error) ou orange (si le type de la carte n'est pas connu).
 
 Quelques informations sur la validation des cartes de crédit :
 

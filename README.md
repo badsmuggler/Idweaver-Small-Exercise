@@ -1,4 +1,4 @@
-# Exercice Frontend
+# Exercice Frontend (Temps estimé 4h)
 
 ## Design
 
